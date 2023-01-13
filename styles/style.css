@@ -13,16 +13,71 @@ body {
 *{
     margin: 0;
 }
+
+/* header */
+.header{
+    background: #562EFF;
+    width: 100%;
+}
+.nav{
+    padding: 26px 0px 17px 0px;
+    display: flex;
+    justify-content: space-evenly
+    
+}
+.logo{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+.logo img{
+    width: 40.42px;
+    height: 51px;
+}
+.logo h1{
+    font-weight: 500;
+    font-size: 24px;
+    color: #FFFFFF;
+}
+.menu{
+    display: flex;
+    align-items: center;
+}
+.menu ul{
+    list-style: none;
+    
+}
+.menu ul li{
+    display: inline;
+    margin: 0 1vw ;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 16px;
+}
+.menu img{
+    width: 51px;
+    height: 51px;
+    list-style: none;
+    margin-left: 1.5vw;
+}
+
+
+
 main {
     display: flex;
     /* justify-content: center; */
     flex-direction: column;
     align-items: center;
+    overflow-x: auto;
 }
 
 .container {
     background-color: #FFFFFF;
     width: 870px;
+    /* width: 50vw; */
     padding: 30px;
     border-radius: 5px;
     margin-top: 21px;
@@ -91,6 +146,7 @@ hr {
 
 .blog-title {
     font-size: 20px;
+    
 }
 
 .blog-auth {
@@ -112,6 +168,7 @@ hr {
     /* margin-bottom: 23px; */
 }
 .course{
+    
     width: 252.42px;
     height: 269.79px;
     padding: 11px;
@@ -161,6 +218,9 @@ hr {
 /* media */
 /* ?for mobile */
 @media only screen and (max-width:688px) {
+    .logo{
+        display: none;
+    }
     .container{
         width: 100%;
     }
