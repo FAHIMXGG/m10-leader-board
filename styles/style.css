@@ -39,6 +39,7 @@ hr {
     font-size: 24px;
     color: #562EFF;
     margin-top: 3px;
+    margin-bottom: 24px ;
 }
 
 .top-players {
@@ -126,7 +127,13 @@ hr {
 .course-banner img {
     width: 224px;
     height: 104px;
-
+    margin-bottom: 19px;
+}
+.course-det{
+    margin-bottom: 7px;
+}
+.course-auth{
+    margin-bottom: 19px;
 }
 .fa-star{
     font-size: 12px;
